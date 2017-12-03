@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="wrap_content">
+
+    <TextView
+    android:padding="6dp"
+    android:id="@+id/tv_item_rv_judge_score_id"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="18dp"
+    android:textColor="@color/black"
+    android:layout_weight="1"
+    />
+
+    <TextView
+        android:padding="6dp"
+        android:id="@+id/tv_item_rv_judge_score_group"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:padding="6dp"
+        android:id="@+id/tv_item_rv_judge_score_gender"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:padding="6dp"
+        android:id="@+id/tv_item_rv_judge_score_myscore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:singleLine="true"
+        android:padding="6dp"
+        android:id="@+id/tv_item_rv_judge_score_remark"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_weight="4"
+        />
+
+
+
+</LinearLayout>

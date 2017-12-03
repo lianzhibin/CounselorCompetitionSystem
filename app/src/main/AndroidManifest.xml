@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="counselorcompetitionsystem.xioalian.com.counselorcompetitionsystem">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoBar">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ItemSelectActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".BasicActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".CompetitionActivity"
+            android:screenOrientation="landscape">
+
+
+        </activity>
+        <activity android:name=".ItemTotalScoreActivity" android:screenOrientation="landscape">
+
+        </activity>
+        <activity
+            android:name=".TotalScoreActivity"
+            android:screenOrientation="landscape" >
+
+        </activity>
+        <activity android:name=".JudgeScoreActivity" android:screenOrientation="landscape"></activity>
+    </application>
+
+</manifest>

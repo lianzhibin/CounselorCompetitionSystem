@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_total_score"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="counselorcompetitionsystem.xioalian.com.counselorcompetitionsystem.ItemTotalScoreActivity">
+
+    <ImageView
+        android:background="@drawable/btn_bg"
+        android:id="@+id/img_back_total_score"
+        android:padding="6dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/icon_return"/>
+
+    <ImageView
+        android:id="@+id/iv_refresh_total_score"
+        android:src="@drawable/icon_refech"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:background="@drawable/btn_refresh"
+        android:id="@+id/btn_refresh_total_score"
+        android:text="刷新"
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <ImageView
+        android:layout_width="37dp"
+        android:layout_height="46dp"
+        android:src="@mipmap/logo"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="11dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_title_total_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:text="第五届高校辅导员职业能力培训大赛暨竞赛"
+        />
+
+    <TextView
+        android:id="@+id/tv_totalscore_total_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="总成绩"
+        />
+
+    <RelativeLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="99dp"
+        android:background="#66ffffff"
+        android:layout_width="800dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="40dp"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="15dp"
+            android:text="组别："
+            android:textSize="17dp"
+            />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="124dp"
+            android:orientation="horizontal"
+            android:layout_width="200dp"
+            android:layout_height="30dp">
+
+            <ImageView
+                android:id="@+id/img_left_total_score"
+                android:background="@drawable/btn_corner_left"
+                android:layout_width="10dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_arror_left"/>
+
+            <Button
+                android:id="@+id/btn1_total_score"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="全部"
+                android:textSize="9dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_number"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btn2_total_score"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_number"
+                android:text="1"/>
+            <Button
+                android:id="@+id/btn3_total_score"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_number"
+                android:text="2"/>
+
+            <Button
+                android:id="@+id/btn4_total_score"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_number"
+                android:text="3"/>
+
+            <Button
+                android:id="@+id/btn5_total_score"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="@drawable/btn_number"
+                android:text="4"/>
+
+            <ImageView
+                android:id="@+id/img_right_total_score"
+                android:background="@drawable/btn_corner_right"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/icon_arror_right"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="450dp"
+            android:background="@drawable/sv_bg"
+            android:layout_marginTop="8dp"
+            android:layout_height="35dp">
+        <EditText
+            android:textSize="15dp"
+            android:padding="8dp"
+            android:id="@+id/et_total_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="输入姓名或学号查找选手信息"
+            >
+        </EditText>
+
+        <ImageView
+            android:id="@+id/img_search_total_score"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:src="@drawable/icon_search"
+            android:layout_marginLeft="210dp"
+            android:background="@drawable/btn_bg"
+            android:clickable="true"
+            />
+        </RelativeLayout>
+
+        <View
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="51dp"
+            android:layout_width="731dp"
+            android:layout_height="1dp"
+            android:background="@color/divide"
+            >
+        </View>
+
+        <LinearLayout
+            android:layout_width="750dp"
+            android:layout_marginTop="45dp"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            android:layout_height="48dp">
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv_sort_id_total_score"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv_sort_sno_total_score"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="学号"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_weight="2"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="学校"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_weight="2"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="名字"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_weight="1.5"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="性别"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv_sort_team_total_score"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="组别"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv_sort_written_examization_total_score"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="笔试"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv_sort_topic_meeting_total_score"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="主题班会"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_weight="1.5"
+                />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv_sort_item_analysis_total_score"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="案例分析"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_weight="1.5"
+                />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv_sort_concact_total_score"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="谈心谈话"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_weight="1.5"
+                />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv_topic_speech_total_score"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="主题演讲"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_weight="1.5"
+                />
+
+            <TextView
+                android:clickable="true"
+                android:id="@+id/tv_sort_total_total_score"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="汇总"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <View
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="87dp"
+            android:layout_width="731dp"
+            android:layout_height="1dp"
+            android:background="@color/divide"
+            >
+        </View>
+
+        <android.support.v7.widget.RecyclerView
+            android:scrollbars="vertical"
+            android:id="@+id/rv_total_score"
+            android:layout_width="750dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="92dp"
+            android:layout_height="match_parent">
+        </android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+</RelativeLayout>

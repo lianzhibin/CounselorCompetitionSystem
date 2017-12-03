@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_competition"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context="counselorcompetitionsystem.xioalian.com.counselorcompetitionsystem.CompetitionActivity">
+
+
+    <ImageView
+        android:background="@drawable/btn_bg"
+        android:id="@+id/img_back_competition_activity"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="16dp"
+        android:padding="6dp"
+        android:src="@drawable/icon_return"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tv_competition_commission_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="24dp"
+        android:text="当前评委编号：A1"
+        android:textSize="13dp"
+        />
+
+    <ImageView
+        android:layout_width="37dp"
+        android:layout_height="46dp"
+        android:src="@mipmap/logo"
+        android:layout_marginLeft="188dp"
+        android:layout_marginTop="16dp"
+
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tv_competition_titlt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textSize="19dp"
+        android:text="第五届高校辅导员职业能力培训大赛暨竞赛"
+        />
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tv_item_name_and_team_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:textSize="17dp"
+        android:text="谈心谈话（第1组）"
+        />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tv_competition_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="42dp"
+        android:textSize="17dp"
+        android:text="已进行：0分0秒"
+        android:layout_alignParentRight="true"
+        />
+
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_marginTop="125dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:layout_height="299dp">
+
+        <RelativeLayout
+            android:id="@+id/ll_judge_score1"
+            android:layout_width="200dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/iv_gender_competition1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                />
+
+        <TextView
+            android:layout_width="43dp"
+            android:layout_height="43dp"
+            android:background="@drawable/bg4"
+            android:id="@+id/tv_game_item_order1"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="14dp"
+            android:text="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="119dp"
+            android:layout_marginTop="30dp"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:text="号选手"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="96dp"
+            android:layout_marginLeft="18dp"
+            android:text="得分:"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tv_game_competition_score_input_tips1"
+            android:layout_marginLeft="45dp"
+            android:layout_marginTop="75dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入 0～100！"
+            android:textColor="@android:color/holo_red_dark"
+            android:visibility="gone"
+
+            />
+
+
+        <EditText
+            android:textSize="15sp"
+            android:paddingLeft="10dp"
+            android:id="@+id/et_game_competition_score1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="88dp"
+            android:hint="请输入 0 ~ 100 "
+            android:text=""
+            />
+
+        <EditText
+            android:id="@+id/et_game_competition_remark1"
+            android:layout_width="146dp"
+            android:layout_height="97dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="132dp"
+            android:hint="选填30字做备注"
+            android:maxLength="30"
+            />
+
+        <Button
+            android:id="@+id/btn_game_competition_save1"
+            android:layout_width="94dp"
+            android:layout_height="32dp"
+            android:background="@color/save"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="250dp"
+            android:text="保存"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            />
+
+  </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/ll_judge_score2"
+            android:layout_width="200dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/iv_gender_competition2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                />
+
+            <TextView
+
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:background="@drawable/bg4"
+                android:id="@+id/tv_game_item_order2"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="14dp"
+                android:text="2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="119dp"
+                android:layout_marginTop="30dp"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:text="号选手"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="96dp"
+                android:layout_marginLeft="18dp"
+                android:text="得分:"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv_game_competition_score_input_tips2"
+                android:visibility="gone"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="75dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请输入 0～100的分数！"
+                android:textColor="@android:color/holo_red_dark"
+
+                />
+
+            <EditText
+                android:textSize="15sp"
+                android:paddingLeft="10dp"
+                android:id="@+id/et_game_competition_score2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="88dp"
+                android:hint="请输入 0 ~ 100 "
+                android:text=""
+                />
+
+            <EditText
+                android:id="@+id/et_game_competition_remark2"
+                android:layout_width="146dp"
+                android:layout_height="97dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="132dp"
+                android:hint="选填30字做备注"
+                android:maxLength="30"
+                />
+
+            <Button
+                android:id="@+id/btn_game_competition_save2"
+                android:layout_width="94dp"
+                android:layout_height="32dp"
+                android:background="@color/save"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="250dp"
+                android:text="保存"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_judge_score3"
+            android:layout_width="200dp"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_gender_competition3"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                />
+
+            <TextView
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:background="@drawable/bg4"
+                android:id="@+id/tv_game_item_order3"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginLeft="65dp"
+                android:layout_marginTop="14dp"
+                android:text="3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="119dp"
+                android:layout_marginTop="30dp"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                android:text="号选手"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="96dp"
+                android:layout_marginLeft="15dp"
+                android:text="得分:"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/tv_game_competition_score_input_tips3"
+                android:visibility="gone"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="75dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="请输入 0～100的分数！"
+                android:textColor="@android:color/holo_red_dark"
+                />
+
+            <EditText
+                android:textSize="15sp"
+                android:id="@+id/et_game_competition_score3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="53dp"
+                android:layout_marginTop="88dp"
+                android:hint="请输入 0 ~ 100 "
+                android:text=""
+                />
+
+            <EditText
+                android:id="@+id/et_game_competition_remark3"
+                android:layout_width="146dp"
+                android:layout_height="97dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="132dp"
+                android:hint="选填30字做备注"
+                android:maxLength="30"
+                />
+
+            <Button
+                android:id="@+id/btn_game_competition_save3"
+                android:layout_width="94dp"
+                android:layout_height="32dp"
+                android:background="@color/save"
+                android:layout_alignParentTop="true"
+             android:layout_centerHorizontal="true"
+                android:layout_marginTop="250dp"
+                android:text="保存"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_competition_input_score"
+        android:layout_width="229dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:background="@color/input"
+        android:text="提交"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="37dp"/>
+
+</RelativeLayout>

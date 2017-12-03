@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_item_select"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context="counselorcompetitionsystem.xioalian.com.counselorcompetitionsystem.ItemSelectActivity">
+
+    <ImageView
+        android:id="@+id/img_first_page"
+        android:layout_width="55dp"
+        android:layout_height="69dp"
+        android:src="@mipmap/logo"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+    />
+
+    <TextView
+        android:id="@+id/tv_comission_or_arbitrate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="当前评委编号：A1"
+        android:textSize="19dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="38dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_item_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+  >
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btn_item_analysis"
+            android:text="案例分析"
+            android:layout_width="240dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@drawable/btn"
+            android:textSize="27dp"
+            android:layout_weight="1"   />
+
+
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btn_speech"
+            android:text="主题演讲"
+            android:layout_width="240dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@drawable/btn"
+            android:textSize="27dp"
+            android:layout_weight="1"   />
+
+        <Button
+            android:id="@+id/btn_concact"
+            android:text="谈话谈心"
+            android:textColor="@color/white"
+            android:layout_width="240dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@drawable/btn"
+            android:textSize="27dp"
+            android:layout_weight="1"
+            />
+
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btn_total_score"
+            android:text="总成绩"
+            android:textSize="27dp"
+            android:layout_width="240dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@drawable/btn"
+            android:layout_weight="1"   />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        >
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btn_item_analysis_score"
+            android:text="案例分析成绩"
+            android:layout_width="240dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@drawable/btn"
+            android:textSize="27dp"
+            android:layout_weight="1"   />
+
+
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/btn_speech_score"
+            android:text="主题演讲成绩"
+            android:layout_width="240dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@drawable/btn"
+            android:textSize="27dp"
+            android:layout_weight="1"   />
+
+
+
+        <Button
+            android:id="@+id/btn_concact_score"
+            android:text="谈话谈心成绩"
+            android:textColor="@color/white"
+            android:layout_width="240dp"
+            android:layout_height="83dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="27dp"
+            android:background="@drawable/btn"
+            android:textSize="27dp"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/title_item_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="第五届广东省高校辅导员职业能力培训暨大赛"
+        android:textSize="30dp"
+        android:layout_marginTop="84dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/img_first_page"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="14dp"
+        android:id="@+id/tv_order_item_total_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="0.5"
+    />
+
+    <TextView
+        android:textSize="14dp"
+        android:id="@+id/tv_sno_item_total_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1.5"
+        />
+
+    <TextView
+        android:textSize="14dp"
+        android:id="@+id/tv_school_item_total_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="4"
+        />
+    <TextView
+        android:textSize="14dp"
+        android:id="@+id/tv_name_item_total_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1.5"
+        />
+    <TextView
+        android:textSize="14dp"
+        android:id="@+id/tv_gender_item_total_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:textSize="14dp"
+        android:id="@+id/tv_team_item_total_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:textSize="14dp"
+        android:id="@+id/tv_appear_item_total_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:maxEms="5"
+        android:textSize="14dp"
+        android:id="@+id/tv_A1_item_total_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:maxEms="5"
+        android:textSize="14dp"
+        android:id="@+id/tv_A2_item_total_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:maxEms="5"
+        android:textSize="14dp"
+        android:id="@+id/tv_A3_item_total_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:maxEms="5"
+        android:textSize="14dp"
+        android:id="@+id/tv_average_item_total_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+    <TextView
+        android:maxEms="5"
+        android:textSize="14dp"
+        android:id="@+id/tv_criterion_item_total_score"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        />
+
+
+    <Button
+        android:background="@drawable/btn_remark"
+        android:id="@+id/btn_remark_item_total_score"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:layout_height="25dp"
+        android:layout_weight="1"
+        android:text="备注"
+        android:layout_marginRight="6dp"
+        />
+
+
+
+</LinearLayout>

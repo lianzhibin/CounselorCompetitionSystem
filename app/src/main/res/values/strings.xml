@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">评分系统</string>
+    <string name="comission">评委</string>
+    <string name="arbitrary">仲裁</string>
+</resources>
